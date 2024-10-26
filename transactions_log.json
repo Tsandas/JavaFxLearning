@@ -1,0 +1,42 @@
+[
+    {
+        "amount": 1231,
+        "addedSpent": "Add",
+        "type": ""
+    },
+    {
+        "amount": 100,
+        "addedSpent": "Added",
+        "type": "Balance"
+    },
+    {
+        "amount": 110,
+        "addedSpent": "Added",
+        "type": "Balance"
+    },
+    {
+        "amount": 100.1,
+        "addedSpent": "Added",
+        "type": "Balance"
+    },
+    {
+        "amount": 123,
+        "addedSpent": "Added",
+        "type": "Balance"
+    },
+    {
+        "amount": 1245,
+        "addedSpent": "Added",
+        "type": "Balance"
+    },
+    {
+        "amount": 124,
+        "addedSpent": "Added",
+        "type": "Balance"
+    },
+    {
+        "amount": 112,
+        "addedSpent": "Removed",
+        "type": "Food"
+    }
+]
