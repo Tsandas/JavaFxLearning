@@ -40,9 +40,6 @@ public class HelloController {
     public void onBtnPress() {
         String txt = txtIn.getText();
         if(Double.parseDouble(txt)>Double.parseDouble(lblBalance.getText())){
-//            Alert alert = new  Alert(Alert.AlertType.WARNING);
-//            alert.setHeaderText("Insufficient funds for this expense");
-//            alert.showAndWait();
 
             Dialog<Void> dialog = new Dialog<>();
             dialog.setTitle("Insufficient Balance");
@@ -58,10 +55,12 @@ public class HelloController {
             txtOut.setText(txtOut.getText() + "\n" + txt + " for some " + type);
             lblBalance.setText(String.valueOf(Double.parseDouble(lblBalance.getText()) -Double.parseDouble(txt)));
         }
+        txtIn.setText("");
     }
 
     public void onBtnAddPress() {
         lblBalance.setText(String.valueOf(Double.parseDouble(lblBalance.getText()) + Double.parseDouble(txtAddBalance.getText())));
+        txtAddBalance.setText("");
     }
 
 
